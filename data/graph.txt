@@ -1,0 +1,172 @@
+# Islamabad City Road Network — 50 Nodes
+# Node 0 = PIMS Hospital (Dispatch Base — Ambulances return here)
+# Format: EDGE from to distance_km
+NODES 50
+
+NODE 0 PIMS_Hospital(BASE)
+NODE 1 G-8_Markaz
+NODE 2 G-9_Markaz
+NODE 3 F-10_Markaz
+NODE 4 F-8_Markaz
+NODE 5 F-7_Markaz
+NODE 6 G-10_Markaz
+NODE 7 F-11_Markaz
+NODE 8 I-8_Markaz
+NODE 9 G-11_Markaz
+NODE 10 Blue_Area
+NODE 11 F-6_Supermarket
+NODE 12 Aabpara
+NODE 13 I-9_Industrial
+NODE 14 G-6_Sector
+NODE 15 Faizabad_Interchange
+NODE 16 F-5_Markaz
+NODE 17 E-7_Sector
+NODE 18 E-11_Sector
+NODE 19 I-10_Sector
+NODE 20 Tarnol_Interchange
+NODE 21 G-7_Sector
+NODE 22 Margalla_Road
+NODE 23 D-12_Sector
+NODE 24 E-12_Sector
+NODE 25 Rawalpindi_Saddar
+NODE 26 Bahria_Town_Ph1
+NODE 27 PWD_Colony
+NODE 28 Bhara_Kahu
+NODE 29 Saidpur_Village
+NODE 30 Pakistan_Secretariat
+NODE 31 Shakarparian
+NODE 32 H-8_Sector
+NODE 33 H-9_Sector
+NODE 34 H-11_Sector
+NODE 35 Golra_Mor
+NODE 36 Koral_Chowk
+NODE 37 Nurpur_Shahan
+NODE 38 Bari_Imam
+NODE 39 Diplomatic_Enclave
+NODE 40 Zero_Point
+NODE 41 Shaheed-e-Millat_Rd
+NODE 42 Jinnah_Avenue
+NODE 43 Islamabad_Highway
+NODE 44 Srinagar_Highway
+NODE 45 Rawalpindi_Ring_Rd
+NODE 46 Motorway_M2_Entry
+NODE 47 Taxila_Road
+NODE 48 Wah_Cantonment
+NODE 49 Attock_Bridge
+
+# --- Core Hospital & Surrounding Sectors ---
+# 0=PIMS_Hospital  1=G-8_Markaz  2=G-9_Markaz  3=F-10_Markaz
+# 4=F-8_Markaz     5=F-7_Markaz  6=G-10_Markaz 7=F-11_Markaz
+
+EDGE 0 1 2.5
+EDGE 0 2 4.1
+EDGE 0 3 1.8
+EDGE 0 5 3.5
+EDGE 0 10 8.0
+EDGE 1 4 3.2
+EDGE 1 5 2.0
+EDGE 1 10 5.5
+EDGE 2 5 1.5
+EDGE 2 6 3.8
+EDGE 2 15 6.2
+EDGE 3 6 2.2
+EDGE 3 7 4.5
+EDGE 3 20 4.8
+EDGE 4 8 1.9
+EDGE 4 9 3.3
+EDGE 5 9 2.7
+EDGE 5 10 1.1
+EDGE 5 22 5.1
+EDGE 5 25 9.1
+EDGE 6 10 2.9
+EDGE 6 11 3.6
+EDGE 7 11 1.4
+EDGE 7 12 2.8
+EDGE 8 13 3.1
+EDGE 8 14 2.3
+EDGE 8 25 7.3
+EDGE 9 14 1.7
+EDGE 9 15 3.9
+EDGE 10 15 2.4
+EDGE 10 16 1.6
+EDGE 10 20 4.4
+EDGE 10 30 7.5
+EDGE 11 16 3.5
+EDGE 11 17 2.1
+EDGE 12 17 1.3
+EDGE 12 18 4.0
+EDGE 12 30 6.8
+EDGE 13 19 2.6
+EDGE 13 20 3.4
+EDGE 14 20 1.2
+EDGE 14 21 2.8
+EDGE 15 21 3.7
+EDGE 15 22 1.9
+EDGE 15 35 5.9
+EDGE 15 40 8.3
+EDGE 16 22 2.5
+EDGE 16 23 3.2
+EDGE 17 23 1.8
+EDGE 17 24 2.7
+EDGE 18 24 3.3
+EDGE 18 25 1.5
+EDGE 19 26 2.9
+EDGE 19 27 4.1
+EDGE 20 27 1.6
+EDGE 20 28 3.0
+EDGE 20 40 6.4
+EDGE 20 45 7.8
+EDGE 21 28 2.2
+EDGE 21 29 1.4
+EDGE 22 29 3.8
+EDGE 22 30 2.6
+EDGE 23 30 1.7
+EDGE 23 31 3.5
+EDGE 24 31 2.3
+EDGE 24 32 1.9
+EDGE 25 32 4.2
+EDGE 25 33 2.0
+EDGE 25 40 5.7
+EDGE 25 45 7.1
+EDGE 26 34 1.8
+EDGE 26 35 3.1
+EDGE 27 35 2.4
+EDGE 27 36 1.5
+EDGE 28 36 3.7
+EDGE 28 37 2.1
+EDGE 29 37 1.3
+EDGE 29 38 2.9
+EDGE 30 38 3.6
+EDGE 30 39 1.1
+EDGE 30 45 6.0
+EDGE 30 49 5.6
+EDGE 31 39 2.7
+EDGE 31 40 3.4
+EDGE 32 40 1.9
+EDGE 32 41 2.5
+EDGE 33 41 3.8
+EDGE 33 42 1.6
+EDGE 34 43 2.2
+EDGE 34 44 3.3
+EDGE 35 44 1.7
+EDGE 35 45 2.8
+EDGE 36 45 4.0
+EDGE 36 46 1.4
+EDGE 37 46 3.2
+EDGE 37 47 2.6
+EDGE 38 47 1.8
+EDGE 38 48 3.5
+EDGE 39 48 2.3
+EDGE 39 49 1.9
+EDGE 40 49 3.7
+EDGE 40 42 2.1
+EDGE 41 43 1.5
+EDGE 42 44 2.9
+EDGE 43 45 3.4
+EDGE 44 46 1.2
+EDGE 45 47 2.7
+EDGE 45 49 3.2
+EDGE 46 48 3.0
+EDGE 47 49 1.6
+EDGE 48 43 2.4
+EDGE 49 44 3.1

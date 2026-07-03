@@ -1,0 +1,52 @@
+# Islamabad Incident Reports — Pre-loaded at System Startup
+# Node Map:
+#  0=PIMS_Hospital        1=G-8_Markaz         2=G-9_Markaz
+#  3=F-10_Markaz          4=F-8_Markaz          5=F-7_Markaz
+#  6=G-10_Markaz          7=F-11_Markaz         8=I-8_Markaz
+#  9=G-11_Markaz          10=Blue_Area           11=F-6_Supermarket
+# 12=Aabpara              13=I-9_Industrial       14=G-6_Sector
+# 15=Faizabad_Interchange 16=F-5_Markaz           17=E-7_Sector
+# 18=E-11_Sector          19=I-10_Sector          20=Tarnol_Interchange
+# 21=G-7_Sector           22=Margalla_Road        23=D-12_Sector
+# 24=E-12_Sector          25=Rawalpindi_Saddar    26=Bahria_Town_Phase1
+# 27=PWD_Colony           28=Bhara_Kahu           29=Saidpur_Village
+# 30=Pakistan_Secretariat 31=Shakarparian          32=H-8_Sector
+# 33=H-9_Sector           34=H-11_Sector          35=Golra_Mor
+# 36=Koral_Chowk          37=Nurpur_Shahan         38=Bari_Imam
+# 39=Diplomatic_Enclave   40=Zero_Point            41=Shaheed-e-Millat_Road
+# 42=Jinnah_Avenue        43=Islamabad_Highway     44=Srinagar_Highway
+# 45=Rawalpindi_Ring_Road 46=Motorway_M-2_Entry    47=Taxila_Road
+# 48=Wah_Cantonment       49=Attock_Bridge
+#
+# Format: INCIDENT nodeID incidentID timestamp severity description
+
+INCIDENT 2  INC001 1780253200 8  Major_accident_blocking_G9_Markaz
+INCIDENT 5  INC002 1780253300 6  Construction_jam_near_F7_Markaz
+INCIDENT 10 INC003 1780253400 9  Flash_flood_blocking_Blue_Area
+INCIDENT 15 INC004 1780252700 5  Minor_collision_Faizabad_Interchange
+INCIDENT 20 INC005 1780253500 7  Signal_failure_Tarnol_Interchange
+INCIDENT 25 INC006 1780253250 4  Pothole_Rawalpindi_Saddar
+INCIDENT 30 INC007 1780253350 10 Bridge_damage_Pakistan_Secretariat_CRITICAL
+INCIDENT 3  INC008 1780253280 6  Gas_leak_F10_Markaz
+INCIDENT 8  INC009 1780253420 8  Multi_vehicle_collision_I8_Markaz
+INCIDENT 12 INC010 1780253210 3  Stalled_vehicle_Aabpara
+INCIDENT 18 INC011 1780253530 7  Road_blocked_E11_Sector_protest
+INCIDENT 22 INC012 1780253100 5  Maintenance_work_Margalla_Road
+INCIDENT 27 INC013 1780253360 9  Sinkhole_PWD_Colony_emergency
+INCIDENT 35 INC014 1780253270 6  Water_main_break_Golra_Mor
+INCIDENT 40 INC015 1780253440 8  Fire_truck_blocking_Zero_Point
+INCIDENT 45 INC016 1780253320 4  Debris_Rawalpindi_Ring_Road
+INCIDENT 2  INC017 1780253600 7  Secondary_crash_G9_same_location
+INCIDENT 10 INC018 1780253650 8  Power_line_down_Blue_Area
+INCIDENT 30 INC019 1780253700 5  Emergency_staging_Secretariat
+INCIDENT 49 INC020 1780253250 6  Overturned_truck_Attock_Bridge
+INCIDENT 1  INC021 1780253380 4  Slow_vehicle_G8_Markaz
+INCIDENT 6  INC022 1780253460 7  Chemical_spill_G10_Markaz
+INCIDENT 14 INC023 1780253540 9  Landslide_debris_G6_Sector
+INCIDENT 19 INC024 1780253580 6  Flooding_I10_Sector
+INCIDENT 33 INC025 1780253490 8  Heavy_vehicle_accident_H9_Sector
+INCIDENT 38 INC026 1780253310 5  Signal_failure_Bari_Imam
+INCIDENT 43 INC027 1780253395 7  Construction_crane_Islamabad_Highway
+INCIDENT 47 INC028 1780253475 3  Animal_on_road_Taxila_Road
+INCIDENT 5  INC029 1780253560 8  Bus_breakdown_F7_Markaz
+INCIDENT 20 INC030 1780253620 6  Police_checkpoint_Tarnol_Interchange
